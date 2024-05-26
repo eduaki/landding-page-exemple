@@ -1,6 +1,13 @@
 import logo from "/src/assets/logo.png";
 import mainBanner from "/src/assets/mainBanner.png";
 import secondBanner from "/src/assets/secondBanner.png";
+import stroke from "/src/assets/stroke.png";
+// IMPORTS logos
+import descript from "/src/assets/brandsLogos/descript.png";
+import grammarly from "/src/assets/brandsLogos/grammarly.png";
+import intercom from "/src/assets/brandsLogos/intercom.png";
+import notion from "/src/assets/brandsLogos/notion.png";
+import unsplash from "/src/assets/brandsLogos/unsplash.png";
 // IMPORTS icons svg
 import arrowRight from "/src/assets/icons/arrow-right.svg";
 import coinGroup from "/src/assets/icons/coinGroup.svg";
@@ -26,6 +33,14 @@ import cover3 from "/src/assets/covers/cover3.png";
 export const Logo = logo;
 export const MainBanner = mainBanner;
 export const SecondBanner = secondBanner;
+export const Stroke = stroke;
+
+// EXPORT logos
+export const Descript = descript;
+export const Grammarly = grammarly;
+export const Intercom = intercom;
+export const Notion = notion;
+export const Unsplash = unsplash;
 
 export const Photo1 = photo1;
 export const Photo2 = photo2;

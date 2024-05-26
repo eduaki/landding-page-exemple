@@ -12,7 +12,9 @@ export const GlobalStyles = createGlobalStyle`
   font-family: "Inter", sans-serif;
 
   color: var(--true-black);
-  background-color: var(--off-whites);
+}
+html{
+  background-color: var(--dark-white);
 }
 *, button, input, li, ul, a{
   list-style: none;
@@ -25,6 +27,7 @@ export const GlobalStyles = createGlobalStyle`
 :root{
   --white: #ffff;
   --off-white: #F9F8FE;
+  --dark-white: #e9f5ec;
   --black: #2f2f2f;
   --true-black: #222;
   --gray:  #A6A6A6;
