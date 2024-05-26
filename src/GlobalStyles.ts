@@ -40,3 +40,35 @@ export const MainContainer = styled.div`
   /* max-width: 1440px;
   margin: 0 auto; */
 `;
+export const Wrapper = styled.div`
+  background: hsla(157, 44%, 54%, 1);
+
+  background: linear-gradient(
+    135deg,
+    hsla(157, 44%, 54%, 1) 14%,
+    hsla(150, 9%, 86%, 1) 41%,
+    hsla(343, 15%, 91%, 1) 61%,
+    hsla(155, 19%, 83%, 1) 82%,
+    hsla(157, 44%, 54%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    135deg,
+    hsla(157, 44%, 54%, 1) 14%,
+    hsla(150, 9%, 86%, 1) 41%,
+    hsla(343, 15%, 91%, 1) 61%,
+    hsla(155, 19%, 83%, 1) 82%,
+    hsla(157, 44%, 54%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    135deg,
+    hsla(157, 44%, 54%, 1) 14%,
+    hsla(150, 9%, 86%, 1) 41%,
+    hsla(343, 15%, 91%, 1) 61%,
+    hsla(155, 19%, 83%, 1) 82%,
+    hsla(157, 44%, 54%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#54BD95", endColorstr="#D9DFDC", GradientType=1 );
+`;

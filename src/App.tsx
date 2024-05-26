@@ -1,4 +1,4 @@
-import { GlobalStyles, MainContainer } from "./GlobalStyles";
+import { GlobalStyles, MainContainer, Wrapper } from "./GlobalStyles";
 import Header from "./components/Header";
 import MainContent from "./components/MainContent";
 import SuportInfo from "./components/SuportInfo";
@@ -7,9 +7,11 @@ function App() {
   return (
     <>
       <MainContainer>
-        <Header />
-        <MainContent />
-        <SuportInfo />
+        <Wrapper>
+          <Header />
+          <MainContent />
+          <SuportInfo />
+        </Wrapper>
         <GlobalStyles />
       </MainContainer>
     </>

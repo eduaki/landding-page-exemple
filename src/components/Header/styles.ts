@@ -1,7 +1,9 @@
 import { styled } from "styled-components";
 
 export const Container = styled.div`
-  margin: 50px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
