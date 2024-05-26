@@ -2,6 +2,7 @@ import { GlobalStyles, MainContainer, Wrapper } from "./GlobalStyles";
 import FeaturesPanel from "./components/FeaturesPanel";
 import Header from "./components/Header";
 import MainContent from "./components/MainContent";
+import ProsArea from "./components/ProsArea";
 import SuportInfo from "./components/SuportInfo";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <SuportInfo />
         </Wrapper>
         <FeaturesPanel />
+        <ProsArea />
         <GlobalStyles />
       </MainContainer>
     </>
