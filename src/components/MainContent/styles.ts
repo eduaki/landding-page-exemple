@@ -1,8 +1,9 @@
 import { styled } from "styled-components";
 
 export const Container = styled.div`
+  max-width: 1440px;
   margin-top: 90px;
-  margin: 0 50px;
+  margin: 0 auto;
 
   .mainWrapper {
     display: flex;
@@ -35,6 +36,8 @@ export const Container = styled.div`
         align-items: center;
         justify-content: space-around;
 
+        transition: 0.5s ease;
+
         font-size: 18px;
         font-weight: 500;
 
@@ -45,6 +48,9 @@ export const Container = styled.div`
         background-color: var(--green);
         color: var(--white);
         cursor: pointer;
+      }
+      button:hover {
+        scale: 1.2;
       }
       #demoView {
         background-color: transparent;
