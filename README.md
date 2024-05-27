@@ -12,7 +12,7 @@ pages.
 
 ### Running the project
 
-- clone repo `git clone <repoLink>`
+- clone repo `git clone https://github.com/eduaki/landding-page-exemple`
 - run `npm install`
 
 All of this code has maked by [@eduaki]("github.com/eduaki")
