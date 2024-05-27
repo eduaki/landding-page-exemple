@@ -8,7 +8,7 @@ the buttons on app is not working, because the design on figma not have other
 pages.
 
 - view the
-  [figma design](<"https://www.figma.com/design/GrK07yvJXVkywde6qweI3J/Saas-Landing-Pages-(Community)?node-id=0-416&t=pnD9DbNfz9IE77oi-0">)
+  [figma design](<https://www.figma.com/design/GrK07yvJXVkywde6qweI3J/Saas-Landing-Pages-(Community)?node-id=0-416&t=pnD9DbNfz9IE77oi-0>)
 
 ### Running the project
 
