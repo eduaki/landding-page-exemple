@@ -23,6 +23,9 @@ html{
   outline: none;
   text-decoration: none;
 }
+button{
+  cursor: pointer;
+}
 
 :root{
   --white: #ffff;
@@ -32,7 +35,7 @@ html{
   --true-black: #222;
   --gray:  #A6A6A6;
   --green: #54BD95;
-  --light-green: #6BC2A1;
+  --light-green: #85DAB9;
 }
 
 `;
