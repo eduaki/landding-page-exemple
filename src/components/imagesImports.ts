@@ -13,6 +13,7 @@ import arrowRight from "/src/assets/icons/arrow-right.svg";
 import coinGroup from "/src/assets/icons/coinGroup.svg";
 import play from "/src/assets/icons/Play.svg";
 import check from "/src/assets/icons/Subtract.svg";
+import sitation from "/src/assets/icons/sitation.svg";
 // IMPORTS icons png
 import command from "/src/assets/icons/command.png";
 import fiveStars from "/src/assets/icons/fiveStars.png";
@@ -56,6 +57,7 @@ export const ArrowRight = arrowRight;
 export const CoinGroup = coinGroup;
 export const Play = play;
 export const Check = check;
+export const Sitation = sitation;
 
 export const Command = command;
 export const FiveStars = fiveStars;

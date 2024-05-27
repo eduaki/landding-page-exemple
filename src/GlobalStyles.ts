@@ -27,6 +27,25 @@ button{
   cursor: pointer;
 }
 
+footer {
+  div{
+    max-width: 1440px;
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+
+  p,
+  a {
+    color: var(--white);
+  } 
+}
+
+    background-color: var(--darkest-blue);
+
+  }
+
 :root{
   --white: #ffff;
   --off-white: #F9F8FE;
@@ -36,6 +55,8 @@ button{
   --gray:  #A6A6A6;
   --green: #54BD95;
   --light-green: #85DAB9;
+  --darkest-blue: #161C28;
+  --dark-blue: #222938;
 }
 
 `;

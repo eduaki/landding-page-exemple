@@ -1,5 +1,6 @@
 import { GlobalStyles, MainContainer, Wrapper } from "./GlobalStyles";
 import FeaturesPanel from "./components/FeaturesPanel";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import MainContent from "./components/MainContent";
 import PlansList from "./components/PlansList";
@@ -18,6 +19,7 @@ function App() {
         <FeaturesPanel />
         <ProsArea />
         <PlansList />
+        <Footer />
         <GlobalStyles />
       </MainContainer>
     </>
